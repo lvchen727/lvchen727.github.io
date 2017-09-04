@@ -148,7 +148,7 @@ header .scrolldown a:hover { color: #009900; }
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
-   margin: 0 auto;
+   margin: -30px;
    z-index: 100;
    position: fixed;
    left: 0;
@@ -162,7 +162,7 @@ ul#left{
    text-align: left;
    color: #fff;
    margin-left: 75px;
-   margin-top: 25px;
+   margin-top: 50px;
 
    -webkit-transition: color .2s ease-in-out;
    -moz-transition: color .2s ease-in-out;
@@ -175,9 +175,9 @@ ul#left{
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
 ul#nav {
-   min-height: 50px;
+   min-height: 30px;
    width: auto;
-
+   margin-top: -25px;
    /* center align the menu */
    text-align: center;
 }
@@ -195,8 +195,8 @@ ul#nav li a {
 
    display: inline-block;
    padding: 8px 13px;
-   line-height: 40px;
-	text-decoration: none;
+   line-height: -10px;
+	 text-decoration: none;
    text-align: left;
    color: #fff;
 
@@ -456,7 +456,7 @@ ul#nav li.current a { color: #ff9900; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background:  #fff;
+   background:  #95A3A3;
    overflow: hidden;
    position: relative;
 
