@@ -222,7 +222,7 @@ ul#nav li.current a { color: #ff9900; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited  { color: #0fff; }
 #about a:hover, #about a:focus { color: #009900; }
 
 #about h2 {
@@ -233,6 +233,9 @@ ul#nav li.current a { color: #ff9900; }
 #about p {
    line-height: 30px;
    color: #7A7A7A;
+}
+#about p strong{
+  color: #009900;
 }
 #about .profile-pic {
    position: relative;
@@ -271,8 +274,11 @@ ul#nav li.current a { color: #ff9900; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #009900; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: #313131; }
+#resume .ul{
+  list-style: none;
+}
+#resume a:hover, #resume a:focus { color: #009900; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -289,7 +295,6 @@ ul#nav li.current a { color: #ff9900; }
 
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
-
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
@@ -456,7 +461,7 @@ ul#nav li.current a { color: #ff9900; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background:  #95A3A3;
+   background:  #fff;
    overflow: hidden;
    position: relative;
 
@@ -818,21 +823,21 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #ebeeee;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #7A7A7A;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #009900; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  { color: #0fff ; }
+#contact a:hover, #contact a:focus { color: #009900; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: #009900;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -844,12 +849,12 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color:#009900;
 }
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color:#0fff;
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -864,7 +869,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #0fff;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -873,8 +878,8 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
-	background: #373233;
+	color:#0fff;
+	background: #fff;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -885,14 +890,14 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
-	background-color: #009900
+	color: #0fff;
+	background-color: #0fff
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-   background: #0D0D0D;
+   background: #009900;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -931,40 +936,22 @@ call-to-action .button {
 }
 
 
-/* Twitter Feed */
-#twitter {
-   margin-top: 12px;
-   padding: 0;
-}
-#twitter li {
-   margin: 6px 0px 12px 0;
-   line-height: 30px;
-}
-#twitter li span {
-   display: block;
-}
-#twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
-   border: none;
-}
-
-
 /* ------------------------------------------------------------------ */
 /* i. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 20px;
+   margin-bottom: 20px;
    color: #303030;
    font-size: 14px;
    text-align: center;
    position: relative;
+   background: #fff;
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #009900; }
 
 /* copyright */
 footer .copyright {
@@ -975,7 +962,7 @@ footer .copyright li {
     display: inline-block;
     margin: 0;
     padding: 0;
-    line-height: 24px;
+    line-height: 10px;
 }
 .ie footer .copyright li {
    display: inline;
@@ -1032,4 +1019,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #009900; }
