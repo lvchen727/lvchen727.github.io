@@ -55,17 +55,18 @@
       </nav> <!-- end #nav-wrap -->
 
       <div class="row banner">
-         <div class="banner-text">
+         <div class="agile_banner_info">
             <div id="typed-strings" class="agileits_w3layouts_strings">
-                <h2>I am <i>Chen Lu.</i></h2>
-                <h2>I am <i>an AI/Machine Learning Enthusiast!</i></h2>
-                <h2>I am <i>a Problem Solver!</i></h2>
-                <h2>I am <i>a Life-long Learner!</i></h2>
+                <p>Hello! I am <i>Chen Lu.</i></p>
+                <p>I am <i>an AI/Machine Learning Enthusiast.</i></p>
+                <p>I am <i>a Problem Solver.</i></p>
+                <p>Will be <i>a Lifelong Learner!</i></p>
               </div>
             <span id="typed" style="white-space:pre;"></span>
             <ul class="social">
                <li><a href="https://www.linkedin.com/in/chen-lu/"><i class="fa fa-linkedin"></i></a></li>
                <li><a href="https://github.com/lvchen727"><i class="fa fa-github"></i></a></li>
+                <li><a href="mailto:lvchen727@gmail.com"><i class="fa fa-envelope"></i></a></li>
             </ul>
          </div>
       </div>
@@ -99,7 +100,7 @@
             financial mathematics, and passed CFA level 1 exam. I also enjoyed the courses of coursera Genomic Data Science
             Specialization and udacity machine learning nanodegree.
             Genarlly, I love Math, Computer Science, Life Science and Philosophy!
-            My goal is to be a life-long learner, and to explore the universe as much as I could!
+            My goal is to be a lifelong learner, and to explore the universe as much as I could!
             </p>
 
             <div class="row">
@@ -503,8 +504,8 @@
          <div class="row section-head">
 
             <div class="two columns header-col">
+              <a class="mobile" href="mailto:info@site.com"></a>
 
-               <h1><span>Get In Touch.</span></h1>
 
             </div>
 
@@ -589,6 +590,7 @@
             <ul class="social-links">
               <li><a href="https://www.linkedin.com/in/chen-lu/"><i class="fa fa-linkedin"></i></a></li>
               <li><a href="https://github.com/lvchen727"><i class="fa fa-github"></i></a></li>
+              <li><a href="mailto:lvchen727@gmail.com"><i class="fa fa-envelope"></i></a></li>
             </ul>
             <div id="clustrmaps-widget"></div>
             <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=22c275&w=a&t=tt&d=QK8GSC3fHRVXYYwD4oadrZfgA5vXsPbW3XQnk6fD6Cg&co=2d78ad&ct=ffffff&cmo=fff853&cmn=ff5353'></script>
@@ -632,6 +634,36 @@
    <script src="js/jquery.fittext.js"></script>
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
+
+   <!-- banner-type-text -->
+   	<script src="js/typed.js" type="text/javascript"></script>
+       <script>
+   		$(function(){
+
+   			$("#typed").typed({
+   				// strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+   				stringsElement: $('#typed-strings'),
+   				typeSpeed: 30,
+   				backDelay: 500,
+   				loop: false,
+   				contentType: 'html', // or text
+   				// defaults to false for infinite loop
+   				loopCount: false,
+   				callback: function(){ foo(); },
+   				resetCallback: function() { newTyped(); }
+   			});
+
+   			$(".reset").click(function(){
+   				$("#typed").typed('reset');
+   			});
+
+   		});
+
+   		function newTyped(){ /* A new typed object */ }
+
+   		function foo(){ console.log("Callback"); }
+       </script>
+   <!-- //banner-type-text -->
 
 </body>
 
