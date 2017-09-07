@@ -650,70 +650,80 @@
    ================================================== -->
    <section id="contact">
 
-     <div class="row section-head">
+         <div class="row section-head">
 
-          <div class="two columns header-col">
-            <a class="mobile" href="mailto:info@site.com"></a>
+            <div class="two columns header-col">
+              <a class="mobile" href="mailto:info@site.com"></a>
 
 
-          </div>
-
-          <div class="ten columns">
-
-                <p class="lead">I am currently seeking full-time job positions or internship opportunities
-                  as Software Engineer or Machine Learning Engineer.
-                  For any opportunity, please feel free to shoot me an email!
-                </p>
-          </div>
-
-       </div>
-       <div class="row">
-
-          <div class="eight columns">
-
-            <div class="contact-form" id="contact-form">
-              <div class="col-md-5 contact-agileits-w3layouts">
-       		     <form action="#" method="post">
-                <fieldset>
-       				      <input type="text" name="Your Name" placeholder="Name" required="">
-       				      <input type="email" name="Your Email" placeholder="Email" required="">
-       				      <input type="text" name="Phone Number" placeholder="Number" required="">
-       				      <textarea name="Message" placeholder="Message" required=""></textarea>
-       		          <input type="submit" value="Submit">
-                </fieldset>
-       		    </form>
             </div>
-           </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">I am currently seeking full-time job positions or internship opportunities
+                    as Software Engineer or Machine Learning Engineer.
+                    For any opportunity, please feel free to shoot me an email!
+                  </p>
+            </div>
+
          </div>
 
-          <aside class="four columns footer-widgets">
-       		<div class="col-md-7 contact-map-right">
-       		<div id="map"></div>
-       			<!-- Map-JavaScript -->
-       			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-       			<script type="text/javascript">
-       				google.maps.event.addDomListener(window, 'load', init);
-       				function init() {
-       					var mapOptions = {
-       						zoom: 11,
-       						center: new google.maps.LatLng(38.656398, -90.306171),
-       						styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-       					};
-       					var mapElement = document.getElementById('map');
-       					var map = new google.maps.Map(mapElement, mapOptions);
-       					var marker = new google.maps.Marker({
-       						position: new google.maps.LatLng(38.656398, -90.306171),
-       						map: map,
-       					});
-       				}
-       			</script>
-       		<!-- //Map-JavaScript -->
+         <div class="row">
 
-       		</div>
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="#" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName" placeholder="Name" required="">
+                  </div>
+
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="20" rows="10" id="contactMessage" name="contactMessage" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Chen Lu<br>
+						   605 Leland <br>
+						  St. Louis, MO63130 US<br>
+						   <span>(314) 402-8727</span>
+					   </p>
+
+				   </div>
+
             </aside>
-       			<div class="clearfix"></div>
 
-       </div>
+      </div>
 
    </section> <!-- Contact Section End-->
 

@@ -837,183 +837,6 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
-/*--Contact --*/
-.contact-agileits-w3layouts p {
-    color: #eee;
-    font-size: 14px;
-    margin-top: 14px;
-}
-.contact-agileits-w3layouts span {
-    color:#045858;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 700;
-    display: inline-block;
-    width: 76px;
-}
-.contact-agileits-w3layouts p a {
-    text-decoration: none;
-    color: #eee;
-}
-.contact-agileits-w3layouts p a:hover {
-    text-decoration: none;
-    color: #2b2b2b;
-}
-.contact-agileits-w3layouts {
-    padding: 35px 60px;
-    /*background: #ecb731;*/
-    background : #009900;
-}
-.contact-map-right {
-    padding: 0;
-}
-.contact-info {
-    background: #171717;
-    padding: 4em 0 3.5em;
-}
-.contact-agileits-w3layouts input[type="text"],.contact-agileits-w3layouts input[type="email"],.contact-agileits-w3layouts textarea{
-	outline: none;
-    border: none;
-    border-bottom: 1px solid #fff;
-    padding: 7px 10px;
-    background: transparent;
-    color: #fff;
-    font-size: 14px;
-    width: 100%;
-}
-.contact-agileits-w3layouts input[type="email"]{
-	margin:1em 0;
-}
-.contact-agileits-w3layouts textarea {
-    min-height: 100px;
-    resize: none;
-    margin-top: 1em;
-}
-.contact-agileits-w3layouts input[type="submit"] {
-    outline: none;
-    border: none;
-    padding: 10px 40px;
-    background: #171717;
-    color: #fff;
-    font-size: 15px;
-    text-transform: capitalize;
-    margin: 1em 0;
-    letter-spacing: .5px;
-    transition: .5s ease-in-out;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    -ms-transition: .5s ease-in-out;
-}
-.contact-agileits-w3layouts input[type="submit"]:hover {
-    background: #ffffff;
-    color: #000;
-    transition: .5s ease-in-out;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    -ms-transition: .5s ease-in-out;
-}
-/*--placeholder-color--*/
-
-::-webkit-input-placeholder{
-	color:rgba(255, 255, 255, 0.65);
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: rgba(255, 255, 255, 0.65);
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: rgba(255, 255, 255, 0.65);
-}
-
-:-ms-input-placeholder {
-   color: rgba(255, 255, 255, 0.65);
-}
-/*--//placeholder-color--*/
-
-#map {
-    width: 100%;
-    height: 393px;
-}
-.contact-grids h5 {
-    padding-bottom: 1em!important;
-}
-.w3_agileits_social_media-footer {
-	text-align:center;
-}
-.w3_agileits_social_media-footer ul li {
-    margin-bottom: 0!important;
-    float: left!important;
-    margin: 0 1em 0 0!important;
-	list-style: none;
-}
-.w3_agileits_social_media-footer ul li a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    padding: 6px 0 0 0px;
-    background: transparent;
-    box-shadow:1px 1px 2px rgba(0, 0, 0, 0.9)!important;
-}
-.w3_agileits_social_media-footer ul li a:hover {
-    box-shadow: 1px 1px 2px rgb(58, 58, 58)!important;
-    /*color: #ecb731!important;*/
-    color: #009900!important;
-}
-.contact-mid ul li {
-    list-style: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 0.9em;
-    font-weight: 300;
-}
-.contact-mid ul li i {
-    color: #fff;
-    display: inline-block;
-    padding-right: 9px;
-    width: 35px;
-}
-.contact-mid ul li a{
-    color: #fff;
-	text-decoration:none;
-}
-.contact-mid ul li a:hover{
-    color: #0086fe;
-	text-decoration:none;
-}
-.callbacks_container ul li {
-    color: #fff;
-    font-size: 15px;
-    letter-spacing:1px;
-    line-height: 30px;
-    font-weight: 300;
-}
-.callbacks_container ul li  a{
-    /*color: #ecb731;*/
-    color : #009900;
-	text-decoration:none;
-}
-.callbacks_container ul li  a:hover{
-    color: #0086fe;
-	text-decoration:none;
-}
-.callbacks_container ul li span {
-    color: #fff;
-    display: block;
-    font-size: 13px;
-}
-.callbacks_container ul li  i{
-    color: #0086fe;
-	padding-right:5px;
-	display:inline-block;
-}
-
 
 #contact {
    background: #ebeeee;
@@ -1042,8 +865,7 @@ call-to-action .button {
   line-height: 72px;
   text-align: left;
   float: left;
-  /*color:#ecb731;*/
-  color : #009900;
+  color:#009900;
 }
 
 #contact h4 {
@@ -1060,15 +882,15 @@ call-to-action .button {
 
 /* contact form */
 #contact form { margin-bottom: 30px; }
-/*#contact label {
+#contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
    color: #0fff;
 	display: inline-block;
 	float: left;
    width: 26%;
-}*/
-/*#contact input,
+}
+#contact input,
 #contact textarea,
 #contact select {
    padding: 18px 20px;
@@ -1127,7 +949,7 @@ call-to-action .button {
    position: relative;
    left: 18px;
    top: 17px;
-}*/
+}
 
 
 /* ------------------------------------------------------------------ */
