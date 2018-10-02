@@ -1,7 +1,9 @@
 # ----------- CONFIGURABLE START -----------
+locale:           "en-US"
 title:            "Chen"
 description:      "Personal Site"
-url:              http://lvchen727.github.io # Site url, without a slash at the end.
+email:            lvchen727@gmail.com
+url:              "http://lvchen727.github.io" # Site url, without a slash at the end.
 signoff:          "Chen" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
@@ -10,10 +12,11 @@ share:            false # Turn on twitter and facebook share buttons
 links:
   - name:         Posts
     url:          /
-    external:     false
+    external:     true
   - name:         About me
     url:          /about
-    external:     false
+    external:     true
+
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
