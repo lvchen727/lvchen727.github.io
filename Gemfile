@@ -1,3 +1,3 @@
-source 'http://rubygems.org'
-
-gem 'github-pages'
+source 'https://rubygems.org'
+gem "jekyll", "~> 3.5"
+gem "minimal-mistakes-jekyll"
