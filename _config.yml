@@ -1,7 +1,7 @@
 # ----------- CONFIGURABLE START -----------
-title:            "吕晨"
-description:      "Chen's Blog"
-url:              lvchen727.github.io # Site url, without a slash at the end.
+title:            "Chen"
+description:      "Personal Site"
+url:              http://lvchen727.github.io # Site url, without a slash at the end.
 signoff:          "Chen" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
@@ -14,7 +14,6 @@ links:
   - name:         About me
     url:          /about
     external:     false
- 
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
